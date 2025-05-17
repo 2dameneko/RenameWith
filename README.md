@@ -80,7 +80,7 @@ source_folder/
 - Python 3.6+ (standard library only - no external dependencies)
 
 ## License
-MIT License (see LICENSE file) - Feel free to modify and redistribute
+[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
 ---
 
