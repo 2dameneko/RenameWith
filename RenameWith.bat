@@ -1,0 +1,1 @@
+python RenameWith.py %1
