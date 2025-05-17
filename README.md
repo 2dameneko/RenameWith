@@ -4,12 +4,12 @@
 A Python script to rename image files (and their associated `.txt` caption files) in a folder, with options for copying/moving, sorting, and handling missing text files. This can be useful for renaming renumbered image files together with text description files of the same name, for example in a training image dataset.
 
 ## Features
-- ?? **Rename** image files sequentially with customizable base name
-- ?? **Copy or Move** files to a new output folder
-- ?? **Sort** files by name, creation time, or modification time
-- ?? **Warn** about missing corresponding `.txt` files
-- ?? **Dry-run** mode to simulate operations safely
-- ?? **Progress tracking** and summary output
+- 🔄 **Rename** image files sequentially with customizable base name
+- 📁 **Copy or Move** files to a new output folder
+- 🔍 **Sort** files by name, creation time, or modification time
+- ⚠️ **Warn** about missing corresponding `.txt` files
+- 🧪 **Dry-run** mode to simulate operations safely
+- 📈 **Progress tracking** and summary output
 
 ## Usage
 ```bash
@@ -60,12 +60,12 @@ python rename_images.py <folder> [options]
 ## Output Structure
 ```
 source_folder/
-+-- Renamed/              # or Copied
-�   +-- Image001.jpg
-�   +-- Image001.txt      # optional
-�   +-- Image002.jpg
-�   L-- ...
-L-- source images...      # original files
+├── Renamed/              # or Copied
+│   ├── Image001.jpg
+│   ├── Image001.txt      # optional
+│   ├── Image002.jpg
+│   └── ...
+└── source images...      # original files
 ```
 
 ## Notes
@@ -80,8 +80,8 @@ L-- source images...      # original files
 - Python 3.6+ (standard library only - no external dependencies)
 
 ## License
-[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
+MIT License (see LICENSE file) - Feel free to modify and redistribute
 
 ---
 
-> ?? Tip: Use `--quiet` with automation, but check output carefully as warnings may be suppressed.
+> 🔍 Tip: Use `--quiet` with automation, but check output carefully as warnings may be suppressed.
