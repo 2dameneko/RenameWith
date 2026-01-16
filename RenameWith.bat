@@ -1,1 +1,1 @@
-python RenameWith.py %1
+python RenameWith.py %1 --move-pairs
