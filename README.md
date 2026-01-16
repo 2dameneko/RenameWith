@@ -78,23 +78,23 @@ python rename_images.py <folder> [options]
 ### Standard Mode
 ```
 source_folder/
-+-- Renamed/              # or Copied
-�   +-- Image001.jpg
-�   +-- Image001.txt      # optional
-�   +-- Image002.jpg
-�   L-- ...
-L-- source images...      # original files
+├── Renamed/              # or Copied
+│   ├── Image001.jpg
+│   ├── Image001.txt      # optional
+│   ├── Image002.jpg
+│   └── ...
+└── source images...      # original files
 ```
 
 ### Move-Pairs Mode
 ```
 source_folder/
 +-- MovedPairs/           # or CopiedPairs
-�   +-- original_name1.jpg
-�   +-- original_name1.txt
-�   +-- another_image.jpg
-�   +-- another_image.txt
-�   L-- ...
+�   +-- original_name1.jpg
+�   +-- original_name1.txt
+�   +-- another_image.jpg
+�   +-- another_image.txt
+�   L-- ...
 L-- unpaired images...    # images without matching .txt
 L-- unpaired texts...     # .txt files without matching images
 ```
