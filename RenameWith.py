@@ -53,7 +53,7 @@ def main():
 def process_rename_mode(args):
     """Original mode: Rename and move/copy files with sequential numbering"""
     # Collect all image files (recursively) and match .txt files
-    valid_extensions = {'.jpg', '.jpeg', '.png'}
+    valid_extensions = {'.jpg', '.webp', '.jpeg', '.png'}
     file_list = []
 
     for root, _, files in os.walk(args.folder):

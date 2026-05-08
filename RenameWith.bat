@@ -1,1 +1,2 @@
-python RenameWith.py %1 --move-pairs
+python RenameWith.py %1 
+rem --move-pairs
